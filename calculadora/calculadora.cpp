@@ -3,10 +3,11 @@
 using namespace std;
 
 int main(void){
-    int a, b;
-    cout << "Digite os números ";
+    double a, b;
+  
+    cout << "Digite os números que voce quer dividir ";
     cin >> a >> b;
-    cout << "A soma é " << a + b << "!\n";
+    cout << "O resultado é " << a / b << "!\n";
     
     return 0;
 }
